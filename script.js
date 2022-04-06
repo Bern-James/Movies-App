@@ -24,7 +24,7 @@ function showMovies(movies) {
     // clear main
     main.innerHTML = "";
 
-    movies.forEach((movie) => {
+    movies.forEach((Movie) => {
         const { poster_path, title, vote_average, overview } = movie;
 
         const movieEl = document.createElement("div");
